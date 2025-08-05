@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Piston Securities Practice Ltd</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', sans-serif; background: #fff; color: #1E293B; line-height: 1.6; }
+    header { background: #fff; display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; border-bottom: 1px solid #e2e8f0; position: sticky; top: 0; z-index: 1000; }
+    header nav a { margin: 0 1rem; text-decoration: none; color: #1E293B; font-weight: 600; }
+    .section { padding: 4rem 2rem; max-width: 800px; margin: auto; }
+    .section h2 { font-size: 0.9rem; color: #64748B; text-transform: uppercase; margin-bottom: 0.3rem; }
+    .section-subtitle { font-size: 2rem; font-weight: 600; margin-bottom: 2rem; }
+    form { display: grid; gap: 1.2rem; }
+    input, textarea { width: 100%; padding: 0.75rem; border: 1px solid #CBD5E1; border-radius: 6px; font-size: 1rem; }
+    button { background: #1570EF; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 6px; font-size: 1rem; cursor: pointer; transition: background 0.3s; }
+    button:hover { background: #1D4ED8; }
+    .contact-info { margin-top: 3rem; font-size: 0.95rem; color: #475569; }
+    .contact-info p { margin-bottom: 0.5rem; }
+    .footer { background: #0F172A; color: #CBD5E1; padding: 2rem; text-align: center; font-size: 0.9rem; margin-top: 4rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>Piston Securities Practice</strong></div>
+    <nav>
+      <a href="#">HOME</a>
+      <a href="#">WHO WE ARE</a>
+      <a href="#">WHAT WE OFFER</a>
+      <a href="#">INSIGHTS</a>
+      <a href="#">CONTACT US</a>
+    </nav>
+  </header>
+
+  <section class="section">
+    <h2>Contact Us</h2>
+    <p class="section-subtitle">Get in touch with our team</p>
+    <form>
+      <input type="text" name="name" placeholder="Your Full Name" required>
+      <input type="email" name="email" placeholder="Your Email Address" required>
+      <input type="text" name="subject" placeholder="Subject">
+      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <p><strong>Office Address:</strong> 12 Independence Avenue, Ridge, Accra, Ghana</p>
+      <p><strong>Email:</strong> info@pistonsecurities.com</p>
+      <p><strong>Phone:</strong> +233 (0) 302 000 000</p>
+    </div>
+  </section>
+
+  <section class="footer">
+    <p>&copy; 2025 Piston Securities Practice Ltd. | Accra, Ghana | info@pistonsecurities.com</p>
+    <p>HOME | WHO WE ARE | WHAT WE OFFER | INSIGHTS | CONTACT US</p>
+  </section>
+</body>
+</html>
